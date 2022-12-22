@@ -1,11 +1,10 @@
 import React from "react";
-import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import { useRouter } from "next/router";
-import title from "../public/title.png";
-import netflix from "../public/netflix2.jpg";
-import imdb from "../public/ımdb.jpg";
+import title from "../../public/title.png";
+import netflix from "../../public/netflix2.jpg";
+import imdb from "../../public/ımdb.jpg";
 
 export default function Home() {
   const router = useRouter();
@@ -23,7 +22,7 @@ export default function Home() {
         </div>
         <div className="max-w-[50%]">
           <div className="mb-[100px] mt-[300px]">
-            <h4 className={styles.titleH1}> Nedir bu "Rick and Morty" ?</h4>
+            <h4 className={styles.titleH1}> Nedir bu Rick and Morty ?</h4>
             <text>
               Rick Sanchez aklına gelen her şeyi bilimsel olarak
               gerçekleştirebilen dahi, alkolik ve çılgın bir bilim adamıdır.
